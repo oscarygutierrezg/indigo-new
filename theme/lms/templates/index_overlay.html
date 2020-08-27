@@ -1,8 +1,12 @@
 <h1>${settings.PLATFORM_NAME}</h1>
 <p>{{ INDIGO_WELCOME_MESSAGE }}</p>
 <script>
-$('.course-search ').hide();
-$('.courses-listing ').hide();
-$('.wrapper-footer ').hide();
-$('.global-header ').hide()
+function 
+    load() {
+        $('.course-search').hide();
+        $('.courses-listing').hide();
+        $('.wrapper-footer').hide();
+        $('.global-header').hide()
+    }
+    window.onload = load;      
 </script>
