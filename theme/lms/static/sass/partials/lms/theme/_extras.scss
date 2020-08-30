@@ -224,6 +224,14 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   background-color:transparent !important;
 }
 
+#content.content-wrapper {
+  margin-top: 65px;
+}
+
+.btn, .global-header .nav-links .secondary .btn {
+  border-radius: 4px;
+}
+
 .image-fondo {
   background-repeat: no-repeat;
   background-image: url("/static/indigo-new/images/backgroun-imagen.jpg");
@@ -240,4 +248,11 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 .login-container div {
   flex-direction: column !important;
   text-align: center !important;
+}
+
+
+.btn-signin {
+  background-color: #EDEFF0 !important;
+  color: #142E58;
+  padding: 10px 20px;
 }
