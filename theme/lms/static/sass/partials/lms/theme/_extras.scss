@@ -191,6 +191,10 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 .wrapper-footer {
   box-shadow: none;
   border-top: none;
+  padding: 0px;
+  background-color: transparent;
+  background: none;
+  clear: none;
 
   .wrapper-logo {
     display: none;
@@ -207,6 +211,17 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   footer#footer-openedx .footer-about-openedx a {
     float: none;
   }
+}
+
+.home header {
+  box-shadow: none;
+  background:transparent !important;;
+  background-color:transparent !important;
+}
+
+.home>header .title {
+  background:transparent !important;;
+  background-color:transparent !important;
 }
 
 .image-fondo {
