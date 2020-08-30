@@ -1,7 +1,6 @@
 /////////////////// General
 
 $content_padding_top: 24px;
-$content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.5px;
 
@@ -190,7 +189,7 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 /////////////////// Footer
 .wrapper-footer {
   box-shadow: none;
-  padding: 25px 40px;
+  border-top: none;
 
   .wrapper-logo {
     display: none;

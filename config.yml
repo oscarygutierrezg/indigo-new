@@ -1,6 +1,6 @@
 INDIGO_TITLE_MESSAGE: "iBienvenido(a) a nuestra plataforma donde aprenderás de manera entretenida y multidisciplinaria."
 INDIGO_SUBTITLE_MESSAGE: "Acá podrás encontrar llamadas, encuestas, test, videos, textos, libros, imágenes y todo en un lugar, complementando el contenido oficial de nuestra escuela con las plataformas de contenido más aclamadas y probadas del mundo. Comienza aqui el camino hacia la educación del futuro."
-INDIGO_PRIMARY_COLOR: "#0F9796" # cool blue
+INDIGO_PRIMARY_COLOR: "#142E58" # cool blue
 
 # Footer links are dictionaries with a "title" and "url"
 # To remove all links, write:
