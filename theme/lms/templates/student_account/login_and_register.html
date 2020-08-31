@@ -1,3 +1,11 @@
+<script>
+$('.window-wrap').addClass('height-total');
+$('.section-bkg-wrapper').addClass('height-total');
+$('.#main').addClass('height-total');
+$('.content-wrapper').css('padding','0px');
+$('.content-wrapper').css('height','100%');
+$('.content-wrapper').css('border-bottom','node');
+</script>
 <%page expression_filter="h"/>
 <%!
     import json
@@ -49,7 +57,7 @@
                     border_class = ''
                 %>
             % endif
-            <div> 
+            <div class="image-fondo-login"> 
                 <h1 class="home-color">{{INDIGO_TITLE_MESSAGE}}</h1>
                 <p class="home-color" style ="margin-bottom: 25px;">{{INDIGO_SUBTITLE_MESSAGE}}</p>
             </div>

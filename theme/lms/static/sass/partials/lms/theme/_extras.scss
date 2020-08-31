@@ -232,6 +232,19 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   border-radius: 4px;
 }
 
+.body{
+  height: 100%;
+}
+
+.height-total{
+  height: 100%;
+}
+.login-register-content{
+    display: flex !important;
+    flex-wrap: inherit !important;
+    height: 100% !important;
+}
+
 .image-fondo {
   background-repeat: no-repeat;
   background-image: url("/static/indigo-new/images/backgroun-imagen.jpg");
@@ -265,5 +278,38 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 }
 h2, .home>header .title>.heading-group p{
   color: #fff;
+}
+
+header .global-header  {
+  border-bottom: none;
+}
+
+
+@media (max-width: 600x) {
+  .image-fondo-login{
+    display: none;
+  }
+  .login-register{
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 600x) {
+  .image-fondo-login {
+    background-repeat: no-repeat;
+    background-image: url("/static/indigo-new/images/backgroun-imagen.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 40px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: left;
+    width: 65%;
+  }
+  .login-register{
+    width: 35% !important;
+  }
 }
 
