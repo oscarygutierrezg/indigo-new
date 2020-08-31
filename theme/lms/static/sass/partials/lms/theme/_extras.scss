@@ -236,6 +236,9 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
   background-repeat: no-repeat;
   background-image: url("/static/indigo-new/images/backgroun-imagen.jpg");
   background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .login-container {
@@ -258,6 +261,9 @@ header.global-header .nav-links .secondary .dropdown-user-menu {
 }
 
 .home-color{
+  color: #fff;
+}
+h2, .home>header .title>.heading-group p{
   color: #fff;
 }
 
