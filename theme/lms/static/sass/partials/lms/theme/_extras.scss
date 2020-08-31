@@ -345,6 +345,27 @@ header .global-header  {
   color: transparent !important;
 }
 
+.login-register-content h2 {
+  display: none !important;
+  color: transparent !important;
+}
+
+.login-register .form-field .tip {
+
+display: none !important;
+color: transparent !important;
+}
+
+.login-register .form-field .field-link {
+  margin: 0 auto !important;
+}
+
+div#login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 
 .login-register input{
   background-color: #EDEFF0 !important;
