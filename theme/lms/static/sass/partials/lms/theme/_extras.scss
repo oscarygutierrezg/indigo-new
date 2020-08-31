@@ -293,13 +293,14 @@ header .global-header  {
     width: 100% !important;
   }
   .login-register input{
-      display: block;
-      width: 100%;
-      margin-left: 20px;
-      margin-right: 20px;
+      display: block !important;
+      width: 100% !important;
+      margin-left: 20px !important;
+      margin-right: 20px !important;
   }
 
-  .btn-confirm{
+  
+  .login-register .action-primary{
     display: block !important ;
     width: 100% !important;
     margin-left: 20px !important;
@@ -327,10 +328,11 @@ header .global-header  {
     width: 35% !important;
   }
   .login-register input{
-    width: 300px;
+    width: 300px !important;
   }
 
-  .btn-confirm{
+  
+  .login-register .action-primary{
     width: 300px !important;
   }
   
@@ -345,16 +347,17 @@ header .global-header  {
 
 
 .login-register input{
-  background-color: #EDEFF0;
-    text-align: center;
-    color: #757576;
-    border-radius: 0;
-    height: 50px;
-    border: none;
-    margin: 0 auto;
+  background-color: #EDEFF0 !important;
+    text-align: center !important;
+    color: #757576 !important;
+    border-radius: 0 !important;
+    height: 50px !important;
+    border: none !important;
+    margin: 0 auto !important;
 }
 
-.btn-confirm {
+
+.login-register .action-primary {
   background-color: #158784 !important;
   color: #FFF !important;
   border-radius: 0 !important;
