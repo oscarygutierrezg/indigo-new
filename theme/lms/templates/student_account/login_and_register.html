@@ -1,12 +1,22 @@
 <script>
-$('.window-wrap').addClass('height-total');
-$('.login-button').addClass('btn-confirm');
-$('.section-bkg-wrapper').addClass('height-total');
-$('#main').addClass('height-total');
-$('.content-wrapper').css('padding','0px');
-$('.content-wrapper').css('height','100%');
-$('.content-wrapper').css('border-bottom','none');
-$('.global-header').css('border-bottom','none');
+
+function changeStyle() {
+    $('.window-wrap').addClass('height-total');
+    $('.login-button').addClass('btn-confirm');
+    $('.section-bkg-wrapper').addClass('height-total');
+    $('#main').addClass('height-total');
+    $('.content-wrapper').css('padding','0px');
+    $('.content-wrapper').css('height','100%');
+    $('.content-wrapper').css('border-bottom','none');
+    $('.global-header').css('border-bottom','none');
+  }
+changeStyle();
+ $(function() {
+    changeStyle();
+ });
+  $( window ).load(function() {  
+    changeStyle();
+  });
 </script>
 <%page expression_filter="h"/>
 <%!
