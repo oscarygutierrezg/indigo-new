@@ -1,11 +1,12 @@
 <script>
 $('.window-wrap').addClass('height-total');
+$('.login-button').addClass('btn-confirm');
 $('.section-bkg-wrapper').addClass('height-total');
-$('.#main').addClass('height-total');
+$('#main').addClass('height-total');
 $('.content-wrapper').css('padding','0px');
 $('.content-wrapper').css('height','100%');
-$('.content-wrapper').css('border-bottom','node');
-$('.global-heade').css('border-bottom','node');
+$('.content-wrapper').css('border-bottom','none');
+$('.global-header').css('border-bottom','none');
 </script>
 <%page expression_filter="h"/>
 <%!
@@ -59,7 +60,7 @@ $('.global-heade').css('border-bottom','node');
                 %>
             % endif
             <div class="image-fondo-login"> 
-                <h1 class="home-color">{{INDIGO_TITLE_MESSAGE}}</h1>
+                <h1 class="home-color" style="text-align: left;">{{INDIGO_TITLE_MESSAGE}}</h1>
                 <p class="home-color" style ="margin-bottom: 25px;">{{INDIGO_SUBTITLE_MESSAGE}}</p>
             </div>
             <div id="login-and-registration-container" class="login-register ${border_class}"></div>

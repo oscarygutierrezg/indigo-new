@@ -285,16 +285,31 @@ header .global-header  {
 }
 
 
-@media (max-width: 600x) {
+@media (max-width: 600px) {
   .image-fondo-login{
     display: none;
   }
   .login-register{
     width: 100% !important;
   }
+  .login-register input{
+      display: block;
+      width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .btn-confirm{
+    display: block !important ;
+    width: 100% !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  
 }
 
-@media (min-width: 600x) {
+@media (min-width: 600px) {
   .image-fondo-login {
     background-repeat: no-repeat;
     background-image: url("/static/indigo-new/images/backgroun-imagen.jpg");
@@ -311,5 +326,41 @@ header .global-header  {
   .login-register{
     width: 35% !important;
   }
+  .login-register input{
+    width: 300px;
+  }
+
+  .btn-confirm{
+    width: 300px !important;
+  }
+  
 }
+
+
+.login-register label{
+  display: none !important;
+  margin: 0px !important;
+  color: transparent !important;
+}
+
+
+.login-register input{
+  background-color: #EDEFF0;
+    text-align: center;
+    color: #757576;
+    border-radius: 0;
+    height: 50px;
+    border: none;
+    margin: 0 auto;
+}
+
+.btn-confirm {
+  background-color: #158784 !important;
+  color: #FFF !important;
+  border-radius: 0 !important;
+  height: 50px !important;
+  border: none !important;
+  margin: 0 auto !important;
+}
+
 
