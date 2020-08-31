@@ -10,6 +10,8 @@ function changeStyle() {
     $('.content-wrapper').css('border-bottom','none');
     $('.global-header').css('border-bottom','none');
     $('#login-form').prepend('<img id="login-logo" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+    $('#login-email').attr('placeholder', 'USUARIO');
+    $('#login-password').attr('placeholder', 'PASSWORD');
   }
 changeStyle();
  $(function() {
