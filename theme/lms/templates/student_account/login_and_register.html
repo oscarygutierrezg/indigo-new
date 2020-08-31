@@ -1,25 +1,55 @@
 <script>
 
 function changeStyle() {
-    $('.window-wrap').addClass('height-total');
-    $('.login-button').addClass('btn-confirm');
-    $('.section-bkg-wrapper').addClass('height-total');
-    $('#main').addClass('height-total');
-    $('.content-wrapper').css('padding','0px');
-    $('.content-wrapper').css('height','100%');
-    $('.content-wrapper').css('border-bottom','none');
-    $('.global-header').css('border-bottom','none');
-    $('#login-form').prepend('<img id="login-logo" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+    if($('.window-wrap').length>0){
+        $('.window-wrap').addClass('height-total');
+    }
+    if($('.login-button').length>0){
+        $('.login-button').addClass('btn-confirm');
+    }
+    if($('.section-bkg-wrapper').length>0){
+        $('.section-bkg-wrapper').addClass('height-total');
+    }
+    if($('#main').length>0){
+        $('#main').addClass('height-total');
+    }
+    if($('.content-wrapper').length>0){
+        $('.content-wrapper').css('padding','0px');
+        $('.content-wrapper').css('height','100%');
+        $('.content-wrapper').css('border-bottom','none');
+    }
+    if($('.global-header').length>0){
+        $('.global-header').css('border-bottom','none');
+    } 
+}
+
+function changeAttr() {
+    if($('.image-fondo-login-logo').length===0){
+        $('#login-form').prepend('<img id="login-logo" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+    }
     $('#login-email').attr('placeholder', 'USUARIO');
     $('#login-password').attr('placeholder', 'PASSWORD');
-  }
-changeStyle();
- $(function() {
+}
+
+var interval = null;
+interval = window.setInterval(function(){
+    if( ($('.image-fondo-login-logo').length===0) && ($('#login-email').attr('placeholder')!=='USUARIO') && ($('#login-password').attr('placeholder') !='PASSWORD')){
+        changeStyle();
+        changeAttr();
+    } else{
+        clearInterval(interval);
+    }
+}, 1000);
+
+
+$(function() {
     changeStyle();
- });
-  $( window ).load(function() {  
+    changeAttr();
+});
+$( window ).load(function() {  
+    changeAttr();
     changeStyle();
-  });
+});
 </script>
 <%page expression_filter="h"/>
 <%!
