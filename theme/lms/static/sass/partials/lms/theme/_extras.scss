@@ -289,6 +289,9 @@ header .global-header  {
   .image-fondo-login{
     display: none;
   }
+  .image-fondo-login-logo {
+    display: none;
+  }
   .login-register{
     width: 100% !important;
   }
@@ -324,6 +327,12 @@ header .global-header  {
     text-align: left;
     width: 65%;
   }
+
+  .image-fondo-login-logo {
+    width: 50px;
+    margin: 0 auto;
+  }
+
   .login-register{
     width: 35% !important;
   }
@@ -358,6 +367,7 @@ color: transparent !important;
 
 .login-register .form-field .field-link {
   margin: 0 auto !important;
+  margin-bottom: 10px !important;
 }
 
 div#login-form{
@@ -375,6 +385,7 @@ div#login-form{
     height: 50px !important;
     border: none !important;
     margin: 0 auto !important;
+    margin-bottom: 10px !important;
 }
 
 
