@@ -3,19 +3,22 @@
 function checkRecovery() {
 var interval1 = null;
 interval1 = window.setInterval(function(){
-    if(!$(".forgot-password" ).is(':visible')){
+    console.log('corriendo 1');
+    if($("#password-reset-email" ).is(':visible')){
         $('#login-anchor').css("display","none");
-        clearInterval(interval1);
         if($('#login-logo1').length===0){
             $('#password-reset-form').prepend('<img id="login-logo1" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+            clearInterval(interval1);   
         }
+    }
+    if($('#login-logo1').length>0){
+        clearInterval(interval1);   
     }
 }, 1);
 }
 
 
 
-$( ".forgot-password" ).is(':visible ')
 function changeStyle() {
     if($('.window-wrap').length>0){
         $('.window-wrap').addClass('height-total');
@@ -62,13 +65,16 @@ interval = window.setInterval(function(){
 
 var interval0 = null;
 interval0 = window.setInterval(function(){
-    console.log('corriendo');
-    if(!$(".forgot-password" ).is(':visible')){
+    console.log('corriendo 0');
+    if($("#password-reset-email" ).is(':visible')){
         $('#login-anchor').css("display","none");
-        clearInterval(interval0);
         if($('#login-logo1').length===0){
             $('#password-reset-form').prepend('<img id="login-logo1" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+            clearInterval(interval0);   
         }
+    }
+    if($('#login-logo1').length>0){
+        clearInterval(interval0);   
     }
 }, 1);
 
