@@ -275,6 +275,10 @@ html, body{
 
 .home-color{
   color: #fff !important;
+}
+
+.login-color{
+  color: #fff !important;
   padding-left: 250px;
   padding-right: 250px;
 }
@@ -327,6 +331,7 @@ header .global-header  {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     text-align: left;
     width: 65%;
   }
@@ -411,22 +416,22 @@ div#login-form{
 
 h1{
   font-size: 32px !important;
-  color: #1b3f6a !important;
+  color: #1b3f6a;
 }
 
 h2{
   font-size: 16px !important;
-  color: #1e9694 !important;
+  color: #1e9694 ;
 }
 
 h3{
   font-size: 20px !important;
-  color: #333333 !important;
+  color: #333333;
 }
 
 body {
   font-size: 14px !important;
-  color: #666666 !important;
+  color: #666666;
   font-family: $font-family-title;
 }
 
