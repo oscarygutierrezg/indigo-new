@@ -1,13 +1,13 @@
 // SansSerif
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src: url('#{$static-path}/fonts/Lato-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-LightItalic.ttf') format('truetype');
   font-weight: 300;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-Regular.ttf') format('truetype');
   font-weight: 400;
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-Italic.ttf') format('truetype');
   font-weight: 400;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-SemiBold.ttf') format('truetype');
   font-weight: 600;
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-Bold.ttf') format('truetype');
   font-weight: 700;
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-  font-family: 'Plex';
+  font-family: 'Lato';
   src:
     url('#{$static-path}/fonts/Lato-BoldItalic.ttf') format('truetype');
   font-weight: 700;
@@ -64,7 +64,7 @@
 
 ///////// Serif
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Merriweather';
   src:
     url('#{$static-path}/fonts/Merriweather-Regular.ttf') format('truetype');
   font-weight: 400;
@@ -72,7 +72,7 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Merriweather';
   src:
     url('#{$static-path}/fonts/Merriweather-Italic.ttf') format('truetype');
   font-weight: 400;
@@ -80,7 +80,7 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Merriweather';
   src:
     url('#{$static-path}/fonts/Merriweather-SemiBold.ttf') format('truetype');
   font-weight: 600;
@@ -88,7 +88,7 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Merriweather';
   src:
     url('#{$static-path}/fonts/Merriweather-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
@@ -96,7 +96,7 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Merriweather';
   src:
     url('#{$static-path}/fonts/Merriweather-Bold.ttf') format('truetype');
   font-weight: 700;
@@ -104,7 +104,7 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'Merriweather';
   src:
     url('#{$static-path}/fonts/Merriweather-BoldItalic.ttf') format('truetype');
   font-weight: 700;
