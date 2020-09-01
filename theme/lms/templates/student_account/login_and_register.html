@@ -60,6 +60,17 @@ interval = window.setInterval(function(){
     }
 }, 1);
 
+var interval0 = null;
+interval0 = window.setInterval(function(){
+    if(!$(".forgot-password" ).is(':visible')){
+        $('#login-anchor').css("display","none");
+        clearInterval(interval0);
+        if($('#login-logo1').length===0){
+            $('#password-reset-form').prepend('<img id="login-logo1" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+        }
+    }
+}, 1);
+
 
 $(function() {
     changeStyle();
