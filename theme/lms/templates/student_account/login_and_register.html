@@ -1,7 +1,14 @@
 <script>
-$( ".forgot-password").click(function() {
-  $('#login-anchor').css("display","none");
-});
+var interval1 = null;
+interval1 = window.setInterval(function(){
+    if(!$(".forgot-password" ).is(':visible')){
+        $('#login-anchor').css("display","none");
+        clearInterval(interval1);
+    }
+}, 1);
+
+
+$( ".forgot-password" ).is(':visible ')
 function changeStyle() {
     if($('.window-wrap').length>0){
         $('.window-wrap').addClass('height-total');
