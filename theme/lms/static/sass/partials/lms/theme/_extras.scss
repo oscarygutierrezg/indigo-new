@@ -295,9 +295,6 @@ header .global-header  {
   .image-fondo-login{
     display: none;
   }
-  .image-fondo-login-logo {
-    display: none;
-  }
   .login-register{
     width: 100% !important;
   }
@@ -336,13 +333,6 @@ header .global-header  {
     width: 65%;
   }
 
-  .image-fondo-login-logo {
-    width: 50px;
-    margin: 0 auto;
-    position: relative;
-    bottom: 20px;
-  }
-
   .login-register{
     width: 35% !important;
   }
@@ -362,6 +352,13 @@ header .global-header  {
 }
 
   
+}
+
+.image-fondo-login-logo {
+  width: 50px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px;
 }
 
 .login-register .action-label, 
