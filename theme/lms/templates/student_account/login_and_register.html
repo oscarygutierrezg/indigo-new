@@ -1,4 +1,4 @@
-<script>
+<script type="text/javascript">
 
 function checkRecovery() {
 var interval1 = null;
@@ -78,7 +78,12 @@ $(function() {
     changeAttr();
     checkRecovery();
 });
-$( window ).load(function() {  
+$(window).load(function() {  
+    changeAttr();
+    changeStyle();
+    checkRecovery();
+});
+$(document).ready(function() {
     changeAttr();
     changeStyle();
     checkRecovery();
