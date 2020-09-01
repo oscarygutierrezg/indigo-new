@@ -62,6 +62,7 @@ interval = window.setInterval(function(){
 
 var interval0 = null;
 interval0 = window.setInterval(function(){
+    console.log('corriendo');
     if(!$(".forgot-password" ).is(':visible')){
         $('#login-anchor').css("display","none");
         clearInterval(interval0);
