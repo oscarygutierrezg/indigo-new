@@ -1,7 +1,7 @@
 // SansSerif
 @font-face {
   font-family: 'Plex';
-  src: url('#{$static-path}/fonts/IBMPlexSans-Light.ttf') format('truetype');
+  src: url('#{$static-path}/fonts/Lato-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-LightItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -25,7 +25,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-Italic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -33,7 +33,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -41,7 +41,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-SemiBoldItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
@@ -49,7 +49,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-Bold.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -57,7 +57,7 @@
 @font-face {
   font-family: 'Plex';
   src:
-    url('#{$static-path}/fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Lato-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
@@ -66,7 +66,7 @@
 @font-face {
   font-family: 'Crimson';
   src:
-    url('#{$static-path}/fonts/CrimsonText-Regular.ttf') format('truetype');
+    url('#{$static-path}/fonts/Merriweather-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -74,7 +74,7 @@
 @font-face {
   font-family: 'Crimson';
   src:
-    url('#{$static-path}/fonts/CrimsonText-Italic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Merriweather-Italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -82,7 +82,7 @@
 @font-face {
   font-family: 'Crimson';
   src:
-    url('#{$static-path}/fonts/CrimsonText-SemiBold.ttf') format('truetype');
+    url('#{$static-path}/fonts/Merriweather-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -90,7 +90,7 @@
 @font-face {
   font-family: 'Crimson';
   src:
-    url('#{$static-path}/fonts/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Merriweather-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
@@ -98,7 +98,7 @@
 @font-face {
   font-family: 'Crimson';
   src:
-    url('#{$static-path}/fonts/CrimsonText-Bold.ttf') format('truetype');
+    url('#{$static-path}/fonts/Merriweather-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -106,7 +106,7 @@
 @font-face {
   font-family: 'Crimson';
   src:
-    url('#{$static-path}/fonts/CrimsonText-BoldItalic.ttf') format('truetype');
+    url('#{$static-path}/fonts/Merriweather-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
