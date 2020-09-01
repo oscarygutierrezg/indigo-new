@@ -383,6 +383,8 @@ color: transparent !important;
 .login-register .form-field .field-link {
   margin: 0 auto !important;
   margin-bottom: 10px !important;
+  position: relative;
+  top: 65px;
 }
 div#password-reset-form,
 div#login-form{
@@ -412,6 +414,8 @@ div#login-form{
   height: 50px !important;
   border: none !important;
   margin: 0 auto !important;
+  position: relative;
+  bottom: 20px;
 }
 
 
