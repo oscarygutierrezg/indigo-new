@@ -339,6 +339,8 @@ header .global-header  {
   .image-fondo-login-logo {
     width: 50px;
     margin: 0 auto;
+    position: relative;
+    bottom: 20px;
   }
 
   .login-register{
@@ -443,6 +445,11 @@ body {
 section#password-reset-anchor,
 div#password-reset-form{
   height: 100%;
+}
+
+#password-reset-email{
+  position: relative;
+  bottom: 20px;
 }
 
 
