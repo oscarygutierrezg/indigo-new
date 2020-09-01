@@ -362,7 +362,7 @@ header .global-header  {
   
 }
 
-
+.login-register .action-label, 
 .login-register label{
   display: none !important;
   margin: 0px !important;
@@ -384,12 +384,13 @@ color: transparent !important;
   margin: 0 auto !important;
   margin-bottom: 10px !important;
 }
-
+div#password-reset-form,
 div#login-form{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    height: 100%;
 }
 
 .login-register input{

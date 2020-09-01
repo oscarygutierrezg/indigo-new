@@ -1,5 +1,7 @@
 <script>
-
+$( ".forgot-password").click(function() {
+  $('#login-anchor').css("display","none");
+});
 function changeStyle() {
     if($('.window-wrap').length>0){
         $('.window-wrap').addClass('height-total');
@@ -18,6 +20,9 @@ function changeStyle() {
         $('.content-wrapper').css('height','100%');
         $('.content-wrapper').css('border-bottom','none');
     }
+    if($('.password-reset-anchor').length>0){
+        $('.password-reset-anchor').css('height','100%');
+    }
     if($('.global-header').length>0){
         $('.global-header').css('border-bottom','none');
     } 
@@ -26,6 +31,7 @@ function changeStyle() {
 function changeAttr() {
     if($('.image-fondo-login-logo').length===0){
         $('#login-form').prepend('<img id="login-logo" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
+        $('#password-reset-form').prepend('<img id="login-logo1" src="/static/indigo-new/images/logo.png" class="image-fondo-login-logo"/>');
     }
     $('#login-email').attr('placeholder', 'USUARIO');
     $('#login-password').attr('placeholder', 'PASSWORD');
